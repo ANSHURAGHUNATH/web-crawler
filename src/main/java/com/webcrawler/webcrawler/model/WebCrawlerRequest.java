@@ -6,8 +6,4 @@ public class WebCrawlerRequest {
     public String getRequestedURL() {
         return requestedURL;
     }
-
-    public void setRequestedURL(String requestedURL) {
-        this.requestedURL = requestedURL;
-    }
 }

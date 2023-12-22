@@ -8,6 +8,15 @@ public class WebCrawlerResponse {
     private final String requestToken;
     private WebCrawlCompletionStatus crawlCompletionStatus;
     private List<String> availableURLs;
+    private String ErrorMessage;
+
+    public String getErrorMessage() {
+        return ErrorMessage;
+    }
+
+    public void setErrorMessage(String errorMessage) {
+        ErrorMessage = errorMessage;
+    }
 
     public String getRequestedURL() {
         return requestedURL;
